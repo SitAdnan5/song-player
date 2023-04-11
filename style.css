@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat&family=Poppins&display=swap');
+
+body{
+    background-color: purple;
+    text-align: center;
+}
+h1{
+    font-family: 'Dancing Script'; 
+   font-size: 5rem;
+   color: yellow;
+}
+.drum{
+    outline: none;
+    border: 10px solid #404B69;
+    font-size: 5rem;
+    font-family: 'Poppins';
+    line-height: 2;
+    font-weight: 900;
+    color: #DA0463;
+    text-shadow: 5px 2px grey;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+
+.set{
+    margin: 10% auto;
+    align-items: center;
+}
+.w{
+    background-image: url('images/crash.png');
+}
+.a{
+    background-image: url('images/kickbass.png');
+}
+.s{
+    background-image: url('images/snare.png');
+}
+.d{
+    background-image: url('images/tom1.png');
+}
+.j{
+    background-image: url('images/tom2.png');
+}
+.k{
+    background-image: url('images/tom3.png');
+}
+.l{
+    background-image: url('images/tom4.png');
+}
+
+.pressed{
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+}
